@@ -38,7 +38,7 @@ private val DarkColorScheme = darkColorScheme(
     onSurface = Color(0xFF1C1B1F),
     */
 
-
+@Suppress("DEPRECATION")
 @Composable
 fun BasicsLabTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
